@@ -1,0 +1,38 @@
+/* esto ya para el diseno de lo demas  */
+.textPrimary {
+  color: var(--color-primary) !important;
+}
+.login {
+  color: var(--color-primary);
+}
+.iconLogin {
+  width: 50px;
+}
+.iconLogo {
+  width: 200px;
+}
+.table-striped > tbody > tr:nth-of-type(odd) > * {
+  background-color: var(--color-secundary);
+}
+.form-signin {
+  max-width: 20rem;
+}
+.addPhase {
+  cursor: pointer;
+  color: var(--color-primary);
+  font-weight: bold;
+  font-style: italic;
+}
+.iconClick,
+.iconEdit {
+  cursor: pointer;
+}
+.textObs {
+  height: 200px !important;
+  overflow-y: scroll;
+}
+@media (max-width: 400px) {
+  .iconLogin {
+    display: none;
+  }
+}
